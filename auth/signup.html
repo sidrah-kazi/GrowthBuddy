@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GrowthBuddy - signup</title>
+<link rel="stylesheet" href="../static/css/signup.css"></head>
+<body>
+    <div class="signup-main">
+        <div class="signup-card">
+           
+<form>
+
+    <h2>Welcome, I am GrowthBuddy!</h2>
+    <p class="tagline">Track. Learn. Grow.</p>
+
+    <div class="form-group">
+        <label>Username</label>
+        <input type="text" name="user_id" required>
+    </div>
+
+    <div class="form-group">
+        <label>Email</label>
+        <input type="email" name="email" required>
+    </div>
+
+    <div class="form-group">
+        <label>Password</label>
+        <input type="password" name="password" required>
+    </div>
+
+    <div class="form-group">
+        <label>Confirm Password</label>
+        <input type="password" name="confirm_password" required>
+    </div>
+
+    <label for="department">Department</label>
+<select name="department" id="department" required>
+    <option value="">-- Select Department --</option>
+    <option value="Computer">Computer</option>
+    <option value="IT">IT</option>
+    <option value="Civil">Civil</option>
+    <option value="Mechanical">Mechanical</option>
+    <option value="EXTC">EXTC</option>
+</select>
+
+<label for="year">Year</label>
+<select name="year" id="year" required>
+    <option value="">-- Select Year --</option>
+    <option value="FE">FE</option>
+    <option value="SE">SE</option>
+    <option value="TE">TE</option>
+    <option value="BE">BE</option>
+</select>
+
+<label for="division">Division</label>
+<select name="division" id="division" required>
+    <option value="">-- Select Division --</option>
+    <option value="A">A</option>
+    <option value="B">B</option>
+    <option value="C">C</option>
+</select>
+
+    <button type="submit">Sign Up</button>
+
+</form><p class="error-msg"></p>
+        </div>
+    </div>
+</body>
+</html>
