@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GrowthBuddy</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../static/css/base.css">
+    <link rel="stylesheet" href="../static/css/components.css">
+    <link rel="stylesheet" href="../static/css/dashboard.css">
+</head>
+<body>
+
+    <!-- Navbar will load here -->
+    <div id="navbar"></div>
+
+    <div class="layout">
+
+        <!-- Sidebar will load here -->
+        <div id="sidebar"></div>
+        <div class="dashboard">
+
+<h2>Syllabus Tracker</h2>
+
+<!-- Division Selector -->
+<div class="card">
+    <select id="division" onchange="loadSyllabus()">
+        <option value="">Select Division</option>
+        <option value="SE-A">SE-A</option>
+        <option value="SE-B">SE-B</option>
+        <option value="TE-A">TE-A</option>
+    </select>
+</div>
+
+<!-- Syllabus Content -->
+<div id="syllabusContainer"></div>
+
+<!-- Chart -->
+<div class="card">
+    <canvas id="syllabusChart"></canvas>
+</div>  </div> </div>  <!-- Footer will load here -->
+    <div id="footer"></div>
+
+    <!-- JS -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="../js/dashboard.js"></script>
+    <script src="../js/syllabus _tracker.js"></script>
+    <script src="../js/charts.js"></script>
+
+</body>
+</html>

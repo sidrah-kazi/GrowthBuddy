@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GrowthBuddy</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../static/css/base.css">
+    <link rel="stylesheet" href="../static/css/components.css">
+    <link rel="stylesheet" href="../static/css/dashboard.css">
+
+</head>
+<body>
+
+    <!-- Navbar will load here -->
+    <div id="navbar"></div>
+
+    <div class="layout">
+
+        <!-- Sidebar will load here -->
+        <div id="sidebar"></div>
+
+<main class="dashboard">
+
+    <!-- Heading -->
+    <section class="welcome">
+        <h1>📚 My Assignments</h1>
+        <p>Submit your work and track your progress</p>
+    </section>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Assignment</th>
+                <th>Subject</th>
+                <th>Due Date</th>
+                <th>Status</th>
+                <th>Upload</th>
+                <th>Submit</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>HW 1</td>
+                <td>DSA</td>
+                <td>2 April</td>
+                <td class="status-pending">Pending</td>
+                <td><input type="file"></td>
+                <td><button>Submit</button></td>
+            </tr>
+
+            <tr>
+                <td>Mini Project</td>
+                <td>DBMS</td>
+                <td>5 April</td>
+                <td class="status-pending">Pending</td>
+                <td><input type="file"></td>
+                <td><button>Submit</button></td>
+            </tr>
+
+            <tr>
+                <td>Lab Report</td>
+                <td>Python</td>
+                <td>1 April</td>
+                <td class="status-submitted">Submitted</td>
+                <td><input type="file"></td>
+                <td><button>Re-submit</button></td>
+            </tr>
+        </tbody>
+    </table>
+<h2 class="analysis-title">Marks Analysis</h2>
+
+<div class="analysis-container">
+
+    <div class="card">
+        <h3>Total</h3>
+        <p>240</p>
+    </div>
+
+    <div class="card">
+        <h3>Average</h3>
+        <p>80</p>
+    </div>
+
+    <div class="card">
+        <h3>Highest</h3>
+        <p>95</p>
+    </div>
+
+    <div class="card">
+        <h3>Lowest</h3>
+        <p>65</p>
+    </div>
+
+</div>
+<!-- 
+<div class="chart-container">
+    <canvas id="marksChart"></canvas>
+</div> -->
+    </section>
+
+</main></div>  <!-- Footer will load here -->
+    <div id="footer"></div>
+
+    <!-- JS -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="../js/chart.js"></script> -->
+    <script src="../js/dashboard.js"></script>
+   
+    
+
+</body>
+</html>

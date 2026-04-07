@@ -1,0 +1,174 @@
+/* Logo */
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.logo img {
+    height: 70px;
+}
+
+.logo h2 {
+    font-size: 20px;
+}
+
+.logo h3 {
+    font-size: 12px;
+    color: #94a3b8;
+}
+
+/* Profile */
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.profile-img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.profile-name {
+    font-size: 24px;
+}
+
+/* Notification Icon */
+.notification {
+    width: 54px;
+    height: 54px;
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+/* Cards (default) */
+.card {
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Buttons */
+button {
+    padding: 8px 12px;
+    border-radius: 6px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Inputs */
+input {
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+/* Progress Bar */
+.progress-bar {
+    width: 100%;
+    background: #e5e7eb;
+    height: 8px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.progress-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #3b82f6, #6366f1);
+    width: 0%;
+}
+
+/* Notifications */
+.notifications-container {
+    padding: 20px;
+    max-width: 700px;
+    margin: auto;
+}
+
+.notification-item {
+    background: #f5f7fb;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.notification-item.unread {
+    background: #e6f0ff;
+    font-weight: bold;
+}
+
+
+/* Base card */
+.card.step {
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: 0.3s;
+    color: #e2e8f0; /* light text for dark theme */
+}
+
+
+.card.step {
+    background-color: #1e293b; /* slate-800 */
+    border-left: 5px solid #334155; /* slate-700 */
+}
+.leaderboard-page .card {
+    background-color: #1e293b;
+    border-radius: 12px;
+    padding: 16px;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+#skillTitle {
+    color: #fbfbfc; /* light blue accent */
+    margin: 0;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    color: #e2e8f0;
+}
+/* Table header */
+thead {
+    background-color: #0f172a; /* darker slate */
+}
+
+th {
+    text-align: left;
+    padding: 12px;
+    font-weight: 600;
+    border-bottom: 1px solid #334155;
+}
+
+/* Table rows */
+td {
+    padding: 12px;
+    border-bottom: 1px solid #334155;
+}
+
+/* Row hover */
+tbody tr:hover {
+    background-color: #334155;
+    transition: 0.2s;
+}
+
+/* Rank column styling */
+tbody tr td:first-child {
+    font-weight: bold;
+    color: #fff;
+}
